@@ -32,13 +32,18 @@ import {
       title: "About",
     },
     {
-      id: "work",
+      id: "projects",
       title: "Projects",
+    },
+    {
+      id: "blog",
+      title: "Blog",
     },
     {
       id: "contact",
       title: "Contact",
     },
+    
   ];
   
   const services = [
@@ -250,6 +255,24 @@ import {
       image: tripguide,
       source_code_link: "https://github.com/",
     },
+  ];
+
+  export const blogs = [
+    {
+      title: "My First Blog Post",
+      description: "This is a brief description of my first blog post.",
+      author: "Author Name",
+      image: "path_to_image.jpg",
+      link: "https://link_to_full_article.com",
+    },
+    {
+      title: "Another Interesting Post",
+      description: "This post talks about interesting stuff.",
+      author: "Author Name",
+      image: "path_to_image.jpg",
+      link: "https://link_to_full_article.com",
+    },
+    // Add more blog articles here
   ];
   
   export { services, technologies, experiences, testimonials, projects };
