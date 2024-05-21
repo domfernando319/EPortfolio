@@ -65,17 +65,20 @@ const Works = () => {
 
       <div className='w-full flex'>
         <motion.p variants={fadeIn("", "", 0.1)} className='mt-3 text-secondary max-w-3xl leading-[30px] text-[18px]'>
-          currently under development ... 
+          Take a look at the stuff I've been working on. Here you can find GitHub links, demo links, and the tech I used for each project. 
         </motion.p>
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((p, index) => (
-          <ProjectCard
-            key={`project-${index}`}
-            index={index}
-            {...p}
-          />
+          // <ProjectCard
+          //   key={`project-${index}`}
+          //   index={index}
+          //   {...p}
+          // />
+          <div>
+            Currently under development...
+          </div>
 
         ))}
 

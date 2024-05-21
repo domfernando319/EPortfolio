@@ -24,7 +24,11 @@ import {
     python,
     java,
     sql,
+    wramblinwreck,
+    dfas01Img,
   } from "../assets";
+
+  
   
   export const navLinks = [
     {
@@ -260,18 +264,58 @@ import {
   export const blogs = [
     {
       title: "My First Blog Post",
-      description: "This is a brief description of my first blog post.",
-      author: "Author Name",
-      image: "path_to_image.jpg",
-      link: "https://link_to_full_article.com",
+      description: "I graduated last week. I was bored so I built this website 😂",
+      date: "5/6/2024",
+      author: "Dom Fernando",
+      pfp: wramblinwreck,
+      image: dfas01Img,
+      id: "dfas01",
     },
     {
-      title: "Another Interesting Post",
-      description: "This post talks about interesting stuff.",
-      author: "Author Name",
+      title: "Summer '24: Week 1 Recap",
+      description: "",
+      date:"5/12/2024",
+      author: "Dom Fernando",
+      pfp: wramblinwreck,
       image: "path_to_image.jpg",
-      link: "https://link_to_full_article.com",
+      id: "dfkr02",
     },
+    {
+      title: "Summer '24: Week 2 Recap",
+      description: "",
+      date:"5/20/2024",
+      author: "Dom Fernando",
+      pfp: wramblinwreck,
+      image: "path_to_image.jpg",
+      id: "dfkjg03",
+    },
+    // {
+    //   title: "Summer '24: Week 2 Recap",
+    //   description: "",
+    //   date:"5/20/2024",
+    //   author: "Dom Fernando",
+    //   pfp: wramblinwreck,
+    //   image: "path_to_image.jpg",
+    //   id: "dfkjg03",
+    // },
+    // {
+    //   title: "Summer '24: Week 2 Recap",
+    //   description: "",
+    //   date:"5/20/2024",
+    //   author: "Dom Fernando",
+    //   pfp: wramblinwreck,
+    //   image: "path_to_image.jpg",
+    //   id: "dfkjg03",
+    // },
+    // {
+    //   title: "Summer '24: Week 2 Recap",
+    //   description: "",
+    //   date:"5/20/2024",
+    //   author: "Dom Fernando",
+    //   pfp: wramblinwreck,
+    //   image: "path_to_image.jpg",
+    //   id: "dfkjg03",
+    // },
     // Add more blog articles here
   ];
   

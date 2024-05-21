@@ -37,6 +37,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import wramblinwreck from './wramblinwreck.jpg';
+import dfas01Img from "./article_images/gradpic.jpg";
 
 export {
   logo,
@@ -68,5 +69,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  wramblinwreck
+  wramblinwreck,
+  dfas01Img
 };
