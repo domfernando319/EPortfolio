@@ -78,10 +78,10 @@ const MainContent = () => (
 
 const Blog = () => (
   <>
-    <div className='bg-hero-pattern bg-cover bg-repeat bg-center flex-grow bg-repeat-y'>
+    <div className='bg-hero-pattern bg-cover bg-center flex-grow bg-repeat-y'>
       <Navbar />
       <section className='relative w-full mx-auto height-[100%] width-[100%]'>
-        <div className={`${styles.paddingX} max-w-7xl max-h-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5 mt-24 p-20 justify-items-center`}>
+        <div className={`${styles.paddingX} max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 mt-24 p-20 justify-items-center`}>
           {blogs.slice().reverse().map((blog, index) => (
             <ArticleCard key={`blog-${index}`} {...blog} />
           ))}
@@ -116,9 +116,9 @@ const App = () => {
         </div>
         
       </BrowserRouter>
-      <div>
+      {/* <div>
         <footer style={{ background: 'white', height: '100px' }}></footer>
-      </div>
+      </div> */}
     </>
   );
 };
