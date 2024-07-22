@@ -15,7 +15,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link })
         max:45,
         scale:1,
         speed: 450
-      }} className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+      }} className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-full">
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
@@ -65,7 +65,7 @@ const Works = () => {
 
       <div className='w-full flex'>
         <motion.p variants={fadeIn("", "", 0.1)} className='mt-3 text-secondary max-w-3xl leading-[30px] text-[18px]'>
-          currently under development ... 
+          Take a look at the stuff I've been working on. Here you can find GitHub links, demo links, and the tech I used for each project. 
         </motion.p>
       </div>
 
@@ -76,6 +76,9 @@ const Works = () => {
             index={index}
             {...p}
           />
+          // <div>
+          //   Currently under development...
+          // </div>
 
         ))}
 
@@ -84,4 +87,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "")
+export default SectionWrapper(Works, "projects")

@@ -35,13 +35,13 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I'm a junior developer with experience in a number of JavaScript, Python, and Java technologies. I'm also familiar with several ML and NLP libraries.
+        I'm a fullstack developer with experience in a number of JavaScript, Python, and Java technologies. I'm also familiar with several ML and NLP libraries.
       </motion.p>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
         My passions are modern web development, user experience, and graph databases. I'm always learning new things and developing cool projects!
       </motion.p>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I have a Bachelor's in Computer Science from Georgia Tech. Go Jackets!
+        I have a Bachelor's Degree in Computer Science from Georgia Tech. Go Jackets!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

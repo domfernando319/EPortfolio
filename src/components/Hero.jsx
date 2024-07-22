@@ -27,17 +27,6 @@ const Hero = () => {
           />
         </div>
 
-        {/* <div 
-          onClick={() => window.open(source_code_link, "_blank")} 
-          className='rounded-full flex justify-center items-center cursor-pointer black-gradient w-10 h-10'
-        >
-          <img
-            src={github}
-            alt="github"
-            className='w-3/4 h-3/4 object-contain'
-          />
-        </div> */}
-
       </div>
         
 

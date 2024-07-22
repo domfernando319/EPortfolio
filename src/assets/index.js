@@ -31,12 +31,17 @@ import sql from './tech/sql.png';
 // import tesla from "./company/tesla.png";
 import enru from "./company/enru.jpg";
 import itential from "./company/itential.png"
+import bariq from "./company/bariq.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import apod from './apod-thumbnail.png';
+import smolbois from './smolbois-thumbnail.png';
+import socialnet from "./socialnet-thumbnail.png";
 
 import wramblinwreck from './wramblinwreck.jpg';
+import dfas01Img from "./article_images/gradpic.jpg";
 
 export {
   logo,
@@ -65,8 +70,13 @@ export {
   sql,
   enru,
   itential,
+  bariq,
   carrent,
   jobit,
   tripguide,
-  wramblinwreck
+  apod,
+  smolbois,
+  socialnet,
+  wramblinwreck,
+  dfas01Img
 };
