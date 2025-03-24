@@ -45,6 +45,8 @@ import dfas01Img from "./article_images/gradpic.jpg";
 import chessbfs from "./article_images/chessbfs.png";
 import ellapic from "./article_images/ellapic.png";
 import pochangfire from "./article_images/pochangfire.png";
+import capitalone from "./article_images/capitalone.png";
+import amazon from "./article_images/amazon.png";
 
 export {
   logo,
@@ -84,5 +86,7 @@ export {
   dfas01Img,
   chessbfs,
   ellapic,
-  pochangfire
+  pochangfire,
+  capitalone,
+  amazon,
 };

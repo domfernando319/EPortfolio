@@ -33,7 +33,9 @@ import {
     dfas01Img,
     chessbfs,
     ellapic,
-    pochangfire
+    pochangfire,
+    amazon,
+    capitalone,
   } from "../assets";
 
   
@@ -345,7 +347,7 @@ import {
       date:"9/20/2024",
       author: "Dom Fernando",
       pfp: wramblinwreck,
-      image: "",
+      image: capitalone,
       id: "dfkjg06",
     },
     {
@@ -363,7 +365,7 @@ import {
       date:"11/22/2024",
       author: "Dom Fernando",
       pfp: wramblinwreck,
-      image: chessbfs,
+      image: amazon,
       id: "dfkjg08",
     },
     {
