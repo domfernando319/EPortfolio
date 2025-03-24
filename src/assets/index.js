@@ -42,6 +42,9 @@ import socialnet from "./socialnet-thumbnail.png";
 
 import wramblinwreck from './wramblinwreck.jpg';
 import dfas01Img from "./article_images/gradpic.jpg";
+import chessbfs from "./article_images/chessbfs.png";
+import ellapic from "./article_images/ellapic.png";
+import pochangfire from "./article_images/pochangfire.png";
 
 export {
   logo,
@@ -78,5 +81,8 @@ export {
   smolbois,
   socialnet,
   wramblinwreck,
-  dfas01Img
+  dfas01Img,
+  chessbfs,
+  ellapic,
+  pochangfire
 };
